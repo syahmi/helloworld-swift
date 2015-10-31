@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6EEE46AC1BE46A370055D68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE46AB1BE46A370055D68C /* AppDelegate.swift */; };
-		6EEE46B31BE46A370055D68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EEE46B21BE46A370055D68C /* Assets.xcassets */; };
 		6EEE46B61BE46A370055D68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEE46B41BE46A370055D68C /* LaunchScreen.storyboard */; };
 		6EEE46C11BE46A370055D68C /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE46C01BE46A370055D68C /* Hello_WorldTests.swift */; };
 		6EEE46CC1BE46A370055D68C /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE46CB1BE46A370055D68C /* Hello_WorldUITests.swift */; };
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		6EEE46A81BE46A370055D68C /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEE46AB1BE46A370055D68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EEE46B21BE46A370055D68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EEE46B51BE46A370055D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EEE46B71BE46A370055D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EEE46BC1BE46A370055D68C /* Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +42,7 @@
 		6EEE46C71BE46A370055D68C /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEE46CB1BE46A370055D68C /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		6EEE46CD1BE46A370055D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EEE46DB1BE46E180055D68C /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelloViewController.swift; path = ../HelloViewController.swift; sourceTree = "<group>"; };
+		6EEE46DB1BE46E180055D68C /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 			children = (
 				6EEE46AB1BE46A370055D68C /* AppDelegate.swift */,
 				6EEE46DB1BE46E180055D68C /* HelloViewController.swift */,
-				6EEE46B21BE46A370055D68C /* Assets.xcassets */,
 				6EEE46B41BE46A370055D68C /* LaunchScreen.storyboard */,
 				6EEE46B71BE46A370055D68C /* Info.plist */,
 			);
@@ -227,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EEE46B61BE46A370055D68C /* LaunchScreen.storyboard in Resources */,
-				6EEE46B31BE46A370055D68C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +466,7 @@
 				6EEE46D21BE46A370055D68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EEE46D31BE46A370055D68C /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +475,7 @@
 				6EEE46D51BE46A370055D68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EEE46D61BE46A370055D68C /* Build configuration list for PBXNativeTarget "Hello WorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +484,7 @@
 				6EEE46D81BE46A370055D68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
