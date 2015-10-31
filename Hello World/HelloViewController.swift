@@ -56,15 +56,18 @@ class HelloViewController: UIViewController {
     func sayHi() {
         print("Hello there")
         helloworld.text = "Hello There"
+        helloworld.textColor = UIColor.greenColor()
     }
 
     func sayGoodbye() {
         print("Goodbye")
         helloworld.text = "Goodbye"
+        helloworld.textColor = UIColor.redColor()
     }
     
     func reset() {
         helloworld.text = "Hello World"
+        helloworld.textColor = UIColor.blackColor()
     }
     
     override func didReceiveMemoryWarning() {
