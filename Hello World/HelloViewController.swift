@@ -24,39 +24,6 @@ class HelloViewController: UIViewController {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
         
-//        self.view.backgroundColor = UIColor.lightGrayColor()
-//        
-//        helloWorldLabel = UILabel(frame: CGRect(x: 0, y: 20, width: 320, height: 100))
-//        helloWorldLabel.text = "Hello World"
-//        helloWorldLabel.textColor = UIColor.blackColor()
-//        helloWorldLabel.textAlignment = NSTextAlignment.Center
-//        helloWorldLabel.font = UIFont.systemFontOfSize(24)
-//        
-//        self.view.addSubview(helloWorldLabel)
-        
-//        hiButton = UIButton(frame: CGRect(x: 20, y: 120, width: 130, height: 40))
-//        hiButton.setTitle("Hello There", forState: UIControlState.Normal)
-//        hiButton.setTitleColor(UIColor.greenColor(), forState: UIControlState.Normal)
-//        hiButton.addTarget(self, action: "sayHi", forControlEvents: UIControlEvents.TouchUpInside)
-//        hiButton.backgroundColor = UIColor.whiteColor()
-//        
-//        self.view.addSubview(hiButton)
-        
-//        byeButton = UIButton(frame: CGRect(x: 170, y: 120, width: 130, height: 40))
-//        byeButton.setTitle("Goodbye", forState: UIControlState.Normal)
-//        byeButton.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
-//        byeButton.addTarget(self, action: "sayGoodbye", forControlEvents: UIControlEvents.TouchUpInside)
-//        byeButton.backgroundColor = UIColor.whiteColor()
-//        
-//        self.view.addSubview(byeButton)
-
-//        resetButton = UIButton(frame: CGRect(x: 20, y: 180, width: 280, height: 40))
-//        resetButton.setTitle("Reset", forState: UIControlState.Normal)
-//        resetButton.addTarget(self, action: "reset", forControlEvents: UIControlEvents.TouchUpInside)
-//        resetButton.backgroundColor = UIColor.blackColor()
-//        
-//        self.view.addSubview(resetButton)
-        
         // Do any additional setup after loading the view.
     }
     
