@@ -49,7 +49,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFr-TQ-nSt">
                                 <rect key="frame" x="40" y="258" width="520" height="44"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.83472030356241766" green="0.82575371776029427" blue="0.94097667929999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="TLJ-NM-ykK"/>
                                 </constraints>
@@ -82,6 +82,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placeholder text" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="F81-sR-83K">
+                                <rect key="frame" x="40" y="392" width="520" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2Fh-PE-zR0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.4941176471" green="0.40784313729999999" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -93,6 +102,8 @@
                             <constraint firstItem="FqX-k6-KAw" firstAttribute="leading" secondItem="FUe-Zi-tMI" secondAttribute="leadingMargin" constant="20" id="7V1-vf-wQx"/>
                             <constraint firstItem="wFr-TQ-nSt" firstAttribute="leading" secondItem="FUe-Zi-tMI" secondAttribute="leadingMargin" constant="20" id="7pT-F5-iFh"/>
                             <constraint firstItem="Vkf-or-zzB" firstAttribute="top" secondItem="wFr-TQ-nSt" secondAttribute="bottom" constant="30" id="Ddu-lS-5Wb"/>
+                            <constraint firstItem="F81-sR-83K" firstAttribute="top" secondItem="wFr-TQ-nSt" secondAttribute="bottom" constant="90" id="JPR-fl-qcg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="F81-sR-83K" secondAttribute="trailing" constant="20" id="eVm-rE-pUe"/>
                             <constraint firstItem="FqX-k6-KAw" firstAttribute="centerX" secondItem="gyX-2y-NvZ" secondAttribute="centerX" id="ff8-AZ-sXz"/>
                             <constraint firstItem="wFr-TQ-nSt" firstAttribute="leading" secondItem="Qeb-K1-Yp7" secondAttribute="leading" id="hrj-Nc-9PM"/>
                             <constraint firstItem="FqX-k6-KAw" firstAttribute="top" secondItem="gyX-2y-NvZ" secondAttribute="bottom" constant="40" id="lwF-Ip-9sj"/>
@@ -102,6 +113,7 @@
                             <constraint firstItem="Vkf-or-zzB" firstAttribute="centerX" secondItem="wFr-TQ-nSt" secondAttribute="centerX" id="tXY-Y0-Vn9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="FqX-k6-KAw" secondAttribute="trailing" constant="20" id="vCk-EC-LJI"/>
                             <constraint firstItem="gyX-2y-NvZ" firstAttribute="centerX" secondItem="FUe-Zi-tMI" secondAttribute="centerX" id="vuy-bc-SEh"/>
+                            <constraint firstItem="F81-sR-83K" firstAttribute="leading" secondItem="FUe-Zi-tMI" secondAttribute="leadingMargin" constant="20" id="zHc-Ij-47n"/>
                         </constraints>
                     </view>
                     <connections>

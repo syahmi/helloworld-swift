@@ -21,6 +21,9 @@ class HelloViewController: UIViewController {
         byeButton.layer.cornerRadius = 5.0
         resetButton.layer.cornerRadius = 5.0
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        
 //        self.view.backgroundColor = UIColor.lightGrayColor()
 //        
 //        helloWorldLabel = UILabel(frame: CGRect(x: 0, y: 20, width: 320, height: 100))
@@ -77,6 +80,10 @@ class HelloViewController: UIViewController {
     @IBAction func sliderControl(sender: AnyObject) {
         print("Slider")
         helloWorldLabel.text = "This is Slider"
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
